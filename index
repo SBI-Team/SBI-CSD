@@ -72,7 +72,7 @@ echo -e "$f Team     :$g ShaDoW BlooD InDoNeSiA"
 sleep 0.5
 echo -e "$f GitHub   :$g https://github.com/SBI-Team/SBI-CSD"
 sleep 0.5
-echo -e "$f Date     :$g 28 Maret 2019"
+echo -e "$f Date     :$g 23 Maret 2019"
 sleep 0.5
 echo -e "$f Version  :$g 1.0"
 sleep 0.5
