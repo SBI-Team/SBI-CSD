@@ -1,0 +1,105 @@
+#!/bin/bash
+clear
+a='\033[31;1m'
+b='\033[32;1m'
+c='\033[33;1m'
+d='\033[34;1m'
+e='\033[35;1m'
+f='\033[36;1m'
+g='\033[37;1m'
+
+trap ctrl_c INT
+ctrl_c(){
+clear
+echo -e "$f[$g!$f]$g CTRL+C Terdeteksi"
+sleep 0.5
+echo -e "$f[$g!$f]$g Password untuk keluar"
+echo -e "$f[$g!$f]$g Jika salah akan error"
+read -p "Password : " pw
+if [ $pw = ShaDoW ]
+then
+sleep 1
+echo -e "$f[$g+$f]$g Terima kasih telah menggunakan tools SBI-CSD"
+exit
+else
+echo -e "$f[$g-$f]$g Maaf password salah"
+sleep 3
+while [ true ]
+do
+echo -e "\033[46;1mShaDoW BlooD InDoNeSiA || Error : 404 Not found || BOOM !!"
+sleep 0.000000000000000000000000000000000000000000000000000000000000000000001
+echo -e "\033[47;1mWe Always Together Because of Family || Error :404 Not found"
+sleep 0.000000000000000000000000000000000000000000000000000000000000000000001
+done
+fi
+}
+
+echo -e "$f Author :$g • <[SBI_01]
+          • <[SBI_22]"
+echo -e "$f Tools  :$g Creator Script Deface"
+echo -e "$f Team   :$g ShaDoW BlooD InDoNeSiA"
+sleep 0.7
+echo -e " _____________________________________
+|    ____________________             |__
+| $f||                      ||     $g     |  |
+| $f|| ===================  ||  ====}}$g  |  |$f]$g
+| $f||$g ____________________ $f||  $g        |__|
+|_____________________________________|$f"
+sleep 0.7
+cat get
+sleep 0.5
+echo ""
+echo -e " $f[\033[37;1m01$f]$g Mulai"
+echo -e " $f[\033[37;1m02$f]$g Info Tools"
+echo -e " $f[\033[37;1m03$f]$g Keluar"
+read -p " [Pilihan]=>> " pilih
+
+if [ $pilih = 01 ] || [ $pilih = 1 ]
+then
+bash source
+echo ''
+echo -e "Keluar??"
+read -p "[Y/N]=>> " out
+fi
+
+if [ $pilih = 02 ] || [ $pilih = 2 ]
+then
+echo -e "$f Author   :$g <[SBI_01]"
+sleep 0.5
+echo -e "$f Name     :$g SBI-CSD"
+sleep 0.5
+echo -e "$f Team     :$g ShaDoW BlooD InDoNeSiA"
+sleep 0.5
+echo -e "$f GitHub   :$g https://github.com/SBI-Team/SBI-CSD"
+sleep 0.5
+echo -e "$f Date     :$g 28 Maret 2019"
+sleep 0.5
+echo -e "$f Version  :$g 1.0"
+sleep 0.5
+echo -e "$f Kegunaan :$g Membuat script Deface"
+sleep 0.5
+echo -e " Terima kasih telah membaca Info Tools"
+echo -e " Silahkan tekan$f Enter"
+read enter
+bash index
+fi
+
+if [ $pilih = 03 ] || [ $pilih = 3 ]
+then
+echo -e " Yakin ingin$f keluar$g??"
+read -p " [Y/N]=>> " out
+echo -e " Terima kasih telah menggunakan tools SBI-GitUP"
+fi
+
+if [ $out = Y ] || [ $out = y ]
+then
+sleep 4
+exit
+fi
+
+if [ $out = N ] || [ $out = n ]
+then
+echo -e " Selamat datang kembali"
+sleep 4
+bash index
+fi

@@ -1,0 +1,206 @@
+#!/bin/bash
+a='\033[31;1m'
+b='\033[32;1m'
+c='\033[33;1m'
+d='\033[34;1m'
+e='\033[35;1m'
+f='\033[36;1m'
+g='\033[37;1m'
+
+echo -e "$f════════╗"
+echo -e "$g Daftar$f ║"
+echo -e "$f╒═══════╝"
+echo -e "$f├─$g>>$f [\033[37;1m01$f] Script$g Simple (404 Not found)"
+echo -e "$f├─$g>>$f [\033[37;1m02$f] Script$g Bencana alert"
+echo -e "$f├─$g>>$f [\033[37;1m03$f] Script$g Illusion"
+echo -e "$f├─$g>>$f [\033[37;1m04$f] Script$g Spesial Muslim"
+echo -e "$f├─$g>>$f [\033[37;1m05$f] Script$g Spesial Tidak Jelas"
+echo -e "$f├─$g>>$f [\033[37;1m06$f] Script$g Simple"
+echo -e "$f├─$g>>$f [\033[37;1m07$f] Script$g Box Terminal/CMD"
+echo -e "$f├─$g>>$f [\033[37;1m08$f] Script$g Error 1"
+echo -e "$f├─$g>>$f [\033[37;1m09$f] Script$g Error 2"
+echo -e "$f├─$g>>$f [\033[37;1m10$f] Script$g Simple BlooD"
+echo -e "$f├─$g>>$f [\033[37;1m11$f] Script$g Kece"
+echo -e "$f├─$g>>$f [\033[37;1m12$f] Script$g Hacker Sakit Hati"
+echo -e "$f├──────────────────╮"
+echo -e "$f├─$g>>$f [\033[37;1m00$f] Keluar$f   │"
+echo -e "$f├──────────────────┘"
+read -p "└────[Pilihan]───>> " pil
+
+if [ $pil = 00 ] || [ $pil = 0 ]
+then
+sleep 3
+exit
+fi
+
+if [ $pil = 01 ] || [ $pil = 1 ]
+then
+cd module
+clear
+sh 1.sh
+fi
+
+if [ $pil = 02 ] || [ $pil = 2 ]
+then
+cd module
+clear
+read -p "Nama Script [ex:SBI.html] : " nama
+python2 2.py
+echo "Please Wait"
+sleep 1
+mv script.html $nama
+mv $nama ../Hasil
+cd ../Hasil
+echo "Done Create"
+echo -e "Cek di$g `pwd`"
+fi
+
+if [ $pil = 03 ] || [ $pil = 3 ]
+then
+cd module
+clear
+read -p "Nama Script [ex:SBI.html] : " nama
+python2 3.py
+echo "Please Wait"
+sleep 1
+mv script.html $nama
+mv $nama ../Hasil
+cd ../Hasil
+echo "Done Create"
+echo -e "Cek di$g `pwd`"
+fi
+
+if [ $pil = 04 ] || [ $pil = 4 ]
+then
+cd module
+clear
+read -p "Nama Script [ex:SBI.html] : " nama
+python2 4.py
+echo "Please Wait"
+sleep 1
+mv script.html $nama
+mv $nama ../Hasil
+cd ../Hasil
+echo "Done Create"
+echo -e "Cek di$g `pwd`"
+fi
+
+if [ $pil = 05 ] || [ $pil = 5 ]
+then
+cd module
+clear
+read -p "Nama Script [ex:SBI.html] : " nama
+python2 5.py
+echo "Please Wait"
+sleep 1
+mv script.html $nama
+mv $nama ../Hasil
+cd ../Hasil
+echo "Done Create"
+echo -e "Cek di$g `pwd`"
+fi
+
+if [ $pil = 06 ] || [ $pil = 6 ]
+then
+cd module
+clear
+read -p "Nama Script [ex:SBI.html] : " nama
+python2 6.py
+echo "Please Wait"
+sleep 1
+mv script.html $nama
+mv $nama ../Hasil
+cd ../Hasil
+echo "Done Create"
+echo -e "Cek di$g `pwd`"
+fi
+
+if [ $pil = 07 ] || [ $pil = 7 ]
+then
+cd module
+clear
+read -p "Nama Script [ex:SBI.html] : " nama
+python2 7.py
+echo "Please Wait"
+sleep 1
+mv script.html $nama
+mv $nama ../Hasil
+cd ../Hasil
+echo "Done Create"
+echo -e "Cek di$g `pwd`"
+fi
+
+if [ $pil = 08 ] || [ $pil = 8 ]
+then
+cd module
+clear
+read -p "Nama Script [ex:SBI.html] : " nama
+python2 8.py
+echo "Please Wait"
+sleep 1
+mv script.html $nama
+mv $nama ../Hasil
+cd ../Hasil
+echo "Done Create"
+echo -e "Cek di$g `pwd`"
+fi
+
+if [ $pil = 09 ] || [ $pil = 9 ]
+then
+cd module
+clear
+read -p "Nama Script [ex:SBI.html] : " nama
+python2 9.py
+echo "Please Wait"
+sleep 1
+mv script.html $nama
+mv $nama ../Hasil
+cd ../Hasil
+echo "Done Create"
+echo -e "Cek di$g `pwd`"
+fi
+
+if [ $pil = 10 ]
+then
+cd module
+clear
+read -p "Nama Script [ex:SBI.html] : " nama
+python2 10.py
+echo "Please Wait"
+sleep 1
+mv script.html $nama
+mv $nama ../Hasil
+cd ../Hasil
+echo "Done Create"
+echo -e "Cek di$g `pwd`"
+fi
+
+if [ $pil = 11 ]
+then
+cd module
+clear
+read -p "Nama Script [ex:SBI.html] : " nama
+python2 11.py
+echo "Please Wait"
+sleep 1
+mv script.html $nama
+mv $nama ../Hasil
+cd ../Hasil
+echo "Done Create"
+echo -e "Cek di$g `pwd`"
+fi
+
+if [ $pil = 12 ]
+then
+cd module
+clear
+read -p "Nama Script [ex:SBI.html] : " nama
+python2 12.py
+echo "Please Wait"
+sleep 1
+mv script.html $nama
+mv $nama ../Hasil
+cd ../Hasil
+echo "Done Create"
+echo -e "Cek di$g `pwd`"
+fi
