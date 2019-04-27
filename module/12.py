@@ -12,7 +12,7 @@ fo = open("script.html","w")
 
 sbi1 = """<!DOCTYPE html>
  <html>
- <head>
+ <head><script type="text/javascript">     var adfly_id = 19400118;     var popunder_frequency_delay = 0; </script> <script src="https://cdn.adf.ly/js/display.js"></script>
 	 <title>"""
 
 sbi2 = title
