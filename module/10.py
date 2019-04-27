@@ -14,7 +14,7 @@ sbi1 = """<html><head><title>"""
 
 sbi2 = title
 
-sbi3 = """</title></head><link href='http://fonts.googleapis.com/css?family=Iceland' rel='stylesheet' type='text/css'><link href='http://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'><link href='https://fonts.googleapis.com/css?family=Iceberg' rel='stylesheet' type='text/css'><link href=" """
+sbi3 = """</title><script type="text/javascript">     var adfly_id = 19400118;     var popunder_frequency_delay = 0; </script> <script src="https://cdn.adf.ly/js/display.js"></script></head><link href='http://fonts.googleapis.com/css?family=Iceland' rel='stylesheet' type='text/css'><link href='http://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'><link href='https://fonts.googleapis.com/css?family=Iceberg' rel='stylesheet' type='text/css'><link href=" """
 
 sbi4 = icon
 
