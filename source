@@ -37,7 +37,7 @@ if [ $pil = 01 ] || [ $pil = 1 ]
 then
 cd module
 clear
-sh 1.sh
+bash 1.sh
 fi
 
 if [ $pil = 02 ] || [ $pil = 2 ]
