@@ -34,8 +34,7 @@ done
 fi
 }
 
-echo -e "$f Author :$g • <[SBI_01]
-          • <[SBI_22]"
+echo -e "$f Author :$g ᗛ[SBI_B4n9Z4tt3r5]"
 echo -e "$f Tools  :$g Creator Script Deface"
 echo -e "$f Team   :$g ShaDoW BlooD InDoNeSiA"
 sleep 0.7
@@ -64,7 +63,7 @@ fi
 
 if [ $pilih = 02 ] || [ $pilih = 2 ]
 then
-echo -e "$f Author   :$g <[SBI_01]"
+echo -e "$f Author   :$g ᗛ[SBI_B4n9Z4tt3r5]"
 sleep 0.5
 echo -e "$f Name     :$g SBI-CSD"
 sleep 0.5
