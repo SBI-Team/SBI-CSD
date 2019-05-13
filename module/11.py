@@ -7,8 +7,7 @@ team = raw_input("Team : ")
 
 fo = open("script.html","w")
 
-sbi1 = """<!-- <[SBI_22] -->
-<html> <head><script type="text/javascript">     var adfly_id = 19400118;     var popunder_frequency_delay = 0; </script> <script src="https://cdn.adf.ly/js/display.js"></script> <meta content='Hacked by <[SBI_22] property='og:title'/> <meta content='article' property='og:type'/> <meta content='http://www.ratiss.org/ioport5.htm' property='og:url'/> <title>"""
+sbi1 = """<html> <head><script type="text/javascript">     var adfly_id = 19400118;     var popunder_frequency_delay = 0; </script> <script src="https://cdn.adf.ly/js/display.js"></script> <meta content='Hacked by <[SBI_22] property='og:title'/> <meta content='article' property='og:type'/> <meta content='http://www.ratiss.org/ioport5.htm' property='og:url'/> <title>"""
 
 sbi2 = title
 
