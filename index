@@ -87,7 +87,7 @@ if [ $pilih = 03 ] || [ $pilih = 3 ]
 then
 echo -e " Yakin ingin$f keluar$g??"
 read -p " [Y/N]=>> " out
-echo -e " Terima kasih telah menggunakan tools SBI-GitUP"
+echo -e " Terima kasih telah menggunakan tools SBI-CSD"
 fi
 
 if [ $out = Y ] || [ $out = y ]
